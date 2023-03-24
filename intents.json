@@ -1,0 +1,539 @@
+{"intents":   [
+    {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "How are you?", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+    "responses": ["you can Call me Neural!", "I am Neural!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "old", "how old is florian", "what is your age", "old are you", "age?"],
+    "responses": ["My owner florian is 22 years old!", "22 years!"]
+    },
+    {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {"tag": "options",
+        "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+        "responses": ["I can guide you and answer your questions about university"]
+    },
+    {"tag": "Can a student who has received a temporary certificate of completion be able to return to education?",
+        "patterns": ["Can a student who has received a temporary certificate of completion be able to return to education?" , "Can a graduate student who has a temporary certificate return to study?" , "Can a graduate associate who has a temporary certificate return to study?"],
+        "response": ["If he receives a temporary certificate, he cannot return to study."]
+    },
+    {"tag": "What is the email address of the university's educational administration?",
+        "patterns": ["What is the email address of the university's educational administration?" , "What is the university's educational management email?" , "Educational management email" , "University educational management email"],
+        "response": ["birjandedu@birjand.ac.ir"]
+    },
+    {"tag": "How can scholarship graduates of the Ministry of Science receive a temporary certificate?",
+        "patterns": ["How can scholarship graduates of the Ministry of Science receive a temporary certificate?" , "How to get the temporary certificate of scholarship graduates of the Ministry of Science" , "How can graduates of the scholarship of the Ministry of Science receive a temporary certificate?"],
+        "response": ["The temporary certificate of the end of education of the scholarship graduates will be sent to the exchange office of the student affairs organization after issuing it."]
+    },
+    {"tag": "What is in the temporary certificate of completion of education?",
+        "patterns": ["What is in the temporary certificate of completion of education?" , "Obligations of temporary certificate of completion of education" , "What are the obligations included in the temporary certificate of graduation?" , "What are the obligations mentioned in the temporary certificate of graduation?" , "What are the obligations raised in the temporary certificate of graduation?"],
+        "response": ["Due to the free education in the above-mentioned study level, daily students have the obligation to serve for free education based on the admission of the entrance exam area, and all obligations must be settled when receiving the educational encyclopedia. (Complete description of settlement of obligations in the receiving section of the encyclopedia)"]
+    },
+    {"tag": "How long is the validity of the temporary certificate of graduation?",
+        "patterns": ["How long is the validity of the temporary certificate of graduation?" , "Validity of temporary certificate of completion of education" , "Temporary certificate validity" , "The validity of the temporary certificate of completion of education" , "How valid is the temporary certificate of graduation?"],
+        "response": ["If the credit date entered in the temporary certificate of completion of education has passed, the student should first contact the University Student Welfare Fund and determine and settle the debt to the welfare fund in order to renew the certificate, then return the previous temporary certificate to the Department of Education. Students, the expert of students will issue a temporary certificate."]
+    },
+    {"tag": "How can we get a degree if we have a loan after graduation?",
+        "patterns": ["How can we get a degree if we have a loan after graduation?" , "How can we get a degree if we still have loans after graduation?" , "How can we get a degree if our student loan continues after graduation?"],
+        "response": ["In case of announcement of installment payment by the Student Welfare Fund for loans after graduation, the educated person will be given a temporary certificate and obtaining a diploma is subject to the full settlement of the account with the Welfare Fund and submission of documents according to the regulations."]
+    },
+    {"tag": "Can those committed to serving the bodies, organizations, especially education, receive their degrees?",
+        "patterns": ["Can those committed to serving the bodies, organizations, especially education, receive their degrees?" , "Can those committed to serving organizations receive their certificates?" , "Can those committed to serving the departments receive their certificates?" , "Can a person who has an obligation to serve the departments receive her certificate?" , "Can a person who has an obligation to serve the departments receive his certificate?"],
+        "response": ["These graduates can receive their degree only by having an official letter from the place of service stating that there is no obstacle in handing over the documents to the graduate and completing the obligations."]
+    },
+    {"tag": "What kind of degree do graduates who are committed to serving education receive after graduation?",
+        "patterns": ["What kind of degree do graduates who are committed to serving education receive after graduation?" , "What kind of degree do graduates committed to education receive after graduation?" , "What is the degree of graduates committed to education?" , "What is the type of degree of graduates committed to serving education"],
+        "response": ["After reviewing the case, these students are introduced to the education department of the place of service through an official letter."]
+    },
+    {"tag": "can the students receive educational approval for their degree of education ?",
+        "patterns": ["can the students receive educational approval for their degree of education ?" , "Can graduates get academic approval for their degree?" , "Do graduates receive academic approval for their degree?"],
+        "response": ["No - If different organizations, bodies and institutions request degree confirmation, the Office of Graduates will send the degree confirmation confidentially and by mail to the requesting organization. Note: It is possible to send the academic confirmation and transcripts for the graduates who are studying at the higher education level in the Islamic Azad University by submitting a notarized document. (Click here to get the form.)"]
+    },
+    {"tag": "What are the conditions for obtaining a temporary associate degree certificate?",
+        "patterns": ["What are the conditions for obtaining a temporary associate degree certificate?" , "Conditions for obtaining a temporary associate certificate" , "Conditions for obtaining a temporary certificate of inter-sectional associate degree"],
+        "response": ["1- Passing 10 general units 2- Passing at least 68 course units from field units (including 10 general units) 3- total averages of 12 to top"]
+    },
+    {"tag": "What are the conditions for obtaining a duplicate temporary certificate in case of missing temporary certificate",
+        "patterns": ["What are the conditions for obtaining a duplicate temporary certificate in case of missing temporary certificate" , "Conditions for obtaining a duplicate temporary certificate" , "Duplicate temporary certificate" , "How to get a duplicate temporary certificate" , "Although the temporary certificate is lost, how to get a duplicate temporary certificate" , "If the temporary certificate is lost, how to get a duplicate temporary certificate"],
+        "response": ["If the temporary certificate of completion of personal education is missing, it is possible to issue a duplicate temporary certificate after completing the following procedures. 1- Send the student's request to issue a copy of the temporary certificate of completion of education via email to the address: birjandedu@birjand.ac.ir (it is necessary to mention the full details of the birth certificate, graduation details, exact address and mobile number of the student in the request. ) 2- The graduate expert inquires about the existence of the mentioned degree from the universities and organizations requesting confirmation. 3- Sending the local declaration form to the address of the student 4- Delivery of documents (two 4x3 photos, photocopy of all pages of the birth certificate in case of changes and photocopy of the national card, submission of the completed form of the local certificate with the notary's approval) for the issuance of a temporary certificate of completion of secondary education 5- Issuance of a temporary certificate of completion of secondary education by an expert of the graduates 6- Sending the certificate to the student's address by registering in the postal system: www.postcert.birjand.ac.ir"]
+    },
+    {"tag": "How to get a temporary certificate of graduation?",
+        "patterns": ["How to get a temporary certificate of graduation?" , "How to get a temporary certificate" , "How to get a temporary certificate of completion of education"],
+        "response": ["A student can apply for a temporary certificate of graduation in 3 ways. 1- Visiting the learned person 2- Applying a learned lawyer with a notarized power of attorney and presenting a valid ID card 3- Registration in the non-attendance system of obtaining a certificate (postal system) at the address: www.postcert.birjand.ac.ir (click here to learn how to apply)"]
+    },
+    {"tag": "Can people other than the educated person receive his degree",
+        "patterns": ["Can people other than the educated person receive his degree" , "Can someone else receive the student's degree?" , "Can any of the student's relatives receive the degree?" , "Except for a private student, she can receive her degree" , "Except for a private student, he can receive his degree"],
+        "response": ["No, (even parents and family members) Note: In case of presenting a notarized power of attorney, the document will be delivered with the lawyer's identification card in hand"]
+    },
+    {"tag": "What are the conditions for obtaining a temporary certificate for male graduates",
+        "patterns": ["What are the conditions for obtaining a temporary certificate for male graduates" , "What are the conditions for receiving a temporary certificate for male graduates?" , "Conditions for receiving temporary certificate for male students"],
+        "response": ["1- Having a termination of service card. 2- Having a permanent exemption card. 3- Having a temporary exemption card during the validity period. 4- Having a certificate of employment to study higher education levels in the current semester with the relevant validity date, including the approved education exemption number for those who are studying in higher education levels. 5- Having a certificate issued by the military and police forces regarding official and contractual employment in the aforementioned organizations. 6- Having a certificate issued by the military and law enforcement forces stating that he has been employed during the period of necessity without initial absence 7- Having a dispatch card for service without absence during its validity period 8- Having a certificate issued by the public duty organization and the public duty deputies of the provinces of the country 9- Having an official certificate of completion of mandatory service from the service unit"]
+    },
+    {"tag": "What degree is given to a graduate subject to the conscription system after graduation",
+        "patterns": ["What degree is given to a graduate subject to the conscription system after graduation" , "What degree is given to the graduates subject to the conscription system after graduation?" , "What degree is given to eligible graduates after graduation?"],
+        "response": ["Male graduates, if they are subject to the conscription service, will be introduced to the conscription field after completing all the stages of graduation, and then the graduate will go to the 10+ police with the mentioned letter and receive a dispatch card"]
+    },
+    {"tag": "What actions should be taken to receive a temporary certificate of graduation",
+        "patterns": ["What actions should be taken to receive a temporary certificate of graduation" , "What should be done to get a temporary certificate of graduation?" , "Necessary measures to obtain a temporary certificate of completion of education" , "Procedures for obtaining a temporary certificate of completion of education"],
+        "response": ["ACheckout in the dynamic system by the student Note 1: Old graduates who do not have an account settlement should use their student number as user and national code as password to access the PUBA system to request Checkout and contact the computer department in case of any problems. (Phone number: 31023122-31023121) b) Delivery of documents to the faculty for graduation by the student and closing the file by the expert of the department c) Clarity of student welfare fund debt status (amount of debt or lack of debt) (phone numbers: 31025122-31025123-31025124-31025125 with prefix 056) Note 1: Old graduates must submit the final settlement of the welfare department. d) Academic confirmation of previous grades k) Original temporary certificate of previous courses e) Clarity of the status of the duty system Note: A temporary certificate will not be issued to graduates committed to service or assigned to study by the Education Organization, and an academic certificate will be issued to this category of graduates"]
+    },
+    {"tag": "What are the necessary documents to receive a copy of the encyclopedia?",
+        "patterns": ["What are the necessary documents to receive a copy of the encyclopedia?" , "Necessary documents of Duplicate Encyclopedia" , "Documents required for a copy of the encyclopedia" , "Necessary documents of a copy of the encyclopedia"],
+        "response": ["If a personal educational certificate is lost, it is possible to issue a duplicate certificate after completing the following formalities. 1- Send the student's request to issue a copy of the academic certificate via email to the address: birjandedu@birjand.ac.ir (it is necessary to mention the full details of the birth certificate, graduation details, exact address and mobile number of the student in the request.) 2- The expert inquires about the existence of the mentioned degree from the universities and organizations requesting confirmation. 3- Send the local declaration form along with the letter of introduction of the student to the Islamic Guidance Department to post a missing notice to the address of the student. 4- Delivery of documents (two 4x3 photos, photocopy of all pages of the birth certificate in case of changes and photocopy of the national card, submission of the completed local certificate form with the notary's approval and submission of three copies of the newspaper containing the notice of missing documents for the duplicate educational encyclopedia: Three times advertisement in widely published newspapers at a time interval of every two months (one month in between). This means that at the end of six months, the student must submit three copies of the newspaper. 5- Issuance of a copy of the academic diploma by the expert of the graduates 6- Sending documents to the student's address by registering in the postal system"]
+    },
+    {"tag": "How can male graduates receive their academic encyclopedias and transcripts?",
+        "patterns": ["How can male graduates receive their academic encyclopedias and transcripts?" , "Under what conditions can male graduates receive their academic encyclopedia and transcripts?"],
+        "response": ["Male graduates can receive their academic encyclopedia and transcripts if they have one of the following: 1) Smart card at the end of the period of necessity 2) permanent medical exemption or sponsorship smart card 3) Certificate of engagement in education with the valid educational exemption number (only for the delivery of the previous degree) 4) Ready to serve without absence during its validity period 5) A certificate issued by the armed forces regarding the employment of active duty employees 6) Certificate of employment issued by the armed forces 7) Certificate issued by public duty units 8) Certificate of employment of those committed to service 9) Temporary exemption form without absence during its validity period 10) A letter from the Student Affairs Organization stating that the required bond has been deposited in the public duty organization and that the delivery of the encyclopedia and transcripts are unimpeded."]
+    },
+    {"tag": "What are the documents required to issue academic certificates and certified transcripts?",
+        "patterns": ["What are the documents required to issue academic certificates and certified transcripts?" , "What documents are needed to issue an educational encyclopedia?" , "What documents are needed to issue approved transcripts?"],
+        "response": ["1- Four pieces of new 4x3 photos 2- Photocopy of all pages of birth certificate and national card 3- Definitive settlement with the student welfare fund 4- Confirmation of diploma and pre-university for associate degree and continuous bachelor degree graduates 5- Confirmation and transcripts of previous courses for undergraduate, master and doctorate students 6- Returning the original of the temporary certificate of the current level 7- Cancellation of the obligation to provide free education for students of the daily course through registration in the Sajjad system (https://portal.saorg.ir). 8- Submission of the original documents of the cancellation of the commitment (the latest job selection order with the date of starting work - confirmed insurance records with the submission of a 12-digit inquiry code - a letter of non-employment from the General Department of Labor and Social Affairs of the province) 9- Presenting the original encyclopedias of previous courses for undergraduate, master's and doctoral students (to view the degree and return it to the student) 10- Submission of a letter canceling the obligation to provide free education for previous courses (in case of full-time study) 11- Presentation of the scholarship completion letter from the student affairs organization for the scholarship students of the Ministry of Science 12- Presentation of a complete settlement letter from the Student Affairs Organization for the graduates benefiting from internal and external study opportunities 13- Submission of the commitment completion letter from the relevant organization for graduates committed to government organizations 14- Clarity of the status of the conscription system (male students)"]
+    },
+    {"tag": "What is academic encyclopedia?",
+        "patterns": ["What is academic encyclopedia?" , "About academic encyclopedia" , "Educational encyclopedia"],
+        "response": ["It refers to the certificates issued at the end of the official training course (associate degree, bachelor's degree, non-continuous bachelor's degree, master's degree, professional doctorate and specialized doctorate), which is based on the settlement of all the student's obligations."]
+    },
+    {"tag": "Can the committed people of the executive bodies or the scholarship use the provided service history to cancel the obligation of the scholarship to fulfill the obligations of providing free education?",
+        "patterns": ["Can the committed people of the executive bodies or the scholarship use the provided service history to cancel the obligation of the scholarship to fulfill the obligations of providing free education?" , "Can people who are committed to executive bodies or scholarships use the service history provided to cancel the commitment of the scholarship to fulfill the obligations of free education service?" , "Can the committed people of the executive bodies use the provided service history to cancel the obligation of the exchange to fulfill the obligations of providing free education?"],
+        "response": ["yes"]
+    },
+    {"tag": "What documents should scholarship students submit to release their degree?",
+        "patterns": ["What documents should scholarship students submit to release their degree?" , "Required documents to release the degree of scholarship students?" , "What documents must scholarship students provide to be able to release their degree?"],
+        "response": ["A copy of the original encyclopedia of previous courses, a previous letter to the free education service, student welfare balance sheet, meeting the conditions of public duty (gentlemen), presenting a certificate of completion of scholarship studies and the unobstructedness of the academic degree from the student affairs organization (bursary administration)."]
+    },
+    {"tag": "What are the conditions for canceling the commitment of free education for scholarship students?",
+        "patterns": ["What are the conditions for canceling the commitment of free education for scholarship students?" , "Canceling the obligation of free education for scholarship students"],
+        "response": ["Scholarship students of the Ministry of Science or other institutions, after canceling the obligations of the scholarship of the relevant institution and announcing the institution, can settle the obligations of the free education service."]
+    },
+    {"tag": "Name the methods of canceling the obligation of free education?",
+        "patterns": ["Name the methods of canceling the obligation of free education?" , "What are the conditions for canceling the obligation of free education?"],
+        "response": ["1) Canceling the obligation of free education by paying a cash fee 2) Canceling the obligation of free education by presenting a certificate of valid work (insurance record, recruitment decrees of governmental and public non-governmental institutions) 3) Canceling the obligation of free education by presenting a valid certificate of non-employment 4) Canceling the obligation of free education by providing a retirement sentence 5) Canceling the obligation of free education through disability"]
+    },
+    {"tag": "People who have studied at several levels of education should apply from which level in order to fulfill their service obligation?",
+        "patterns": ["People who have studied at several levels of education should apply from which level in order to fulfill their service obligation?" , "People who have graduated from several levels should apply from which level to commit to their service?" , "A person who has graduated from several courses should apply from which course to commit to her service?" , "A person who has graduated from several courses should apply from which course to commit to his service?"],
+        "response": ["People who have studied at several levels of education are required to settle their service obligation from the lower level in order, and the end of the service obligation of the higher level depends on submitting the form on how to fulfill the service obligation of the previous levels."]
+    },
+    {"tag": "Graduates should contact which unit for guidance and information about the semesters and units taken and passed for the cancellation process of the Sajjad system?",
+        "patterns": ["Graduates should contact which unit for guidance and information about the semesters and units taken and passed for the cancellation process of the Sajjad system?" , "For guidance and information about the semesters and units taken and passed for the cancellation process of the Sajjad system, where should the students follow up with?"],
+        "response": ["Computer unit with contact number: 31023122-31023123"]
+    },
+    {"tag": "How to register in Sajjad system?",
+        "patterns": ["How to register in Sajjad system?" , "What should we do to register in the Sajjad system?" , "Registration guide in Sajjad system"],
+        "response": ["The student, referring to the website https://portal.saorg.ir from the services tab, selects the internal student affairs department and clicks on the option to cancel the commitment of free education to register the request and enter the information of the desired course to cancel the commitment, which includes the course information. , it enters the field, orientation and educational status. Then the student should enter the information (quota), (student number), (number of units obtained) and (number of compensatory units passed) in the information section of the educational levels. (Important note: if the student is a full-time scholarship student of the Ministry of Science and other institutions, he should activate the scholarship option of the Ministry of Science and other universities and upload the required documents.) (It should be noted that the number of academic semesters is determined systematically based on the start and end date of the study. If the semester status is selected as an introduction to the professor and project extension, the number of completed units should be entered.) At this stage, in order to cancel the commitment, the student must choose and confirm one of the mentioned options (retirement order, doing work (in case of a deficit of experience with payment), non-employment letter, payment, others) that if the transaction is successful The student has received a message indicating the successful registration of the application and the follow-up code, which he should keep with him. At this stage, the expert of the students examines the registered information of the student in the system and gives his opinion, and if the registered information is correct, he approves the request. At the last stage, the student affairs expert will recheck the registered information of the student in the system and give his opinion, and if the registered information is correct, and according to the documents of the university expert, he will approve the request. Finally, the student can receive the letter of cancellation of his commitment, which contains the correct code. In order to cancel the obligation of free education, the student must first select the registration option through the address (https://portal.saorg.ir) and after going through the mentioned processes and receiving the tracking code, again by entering the issued tracking code. Login to the system and select the login option and after going through all the required steps from the service menu, select the free training cancellation option and then select one of the cancellation steps and upload the documents. Note: During the registration process in the Sajjad system, those who have been admitted to the quotas of region 2, 3, 4, 5 and nomads and governorates, if they are applying to change the region to region 1, it is necessary to select the yes option."]
+    },
+    {"tag": "Is the passage of time included in the cancellation of the obligation of free education?",
+        "patterns": ["Is the passage of time included in the cancellation of the obligation of free education?" , "Will the commitment of free education be canceled over time?"],
+        "response": ["no"]
+    },
+    {"tag": "What is the cancellation of the obligation of free education?",
+        "patterns": ["What is the cancellation of the obligation of free education?" , "Cancellation of the obligation of free education" , "Explain the cancellation of the free education obligation"],
+        "response": ["According to the law of the Ministry of Science, people who benefit from free education during their education (daily course) must serve the country for the years of education. These types of commitments are made due to the use of free government services in the university. The number of years of service is mentioned in the temporary certificate of the end of education, which depends on the level and type of entrance quota in the entrance examination."]
+    },
+    {"tag": "How long is the free education commitment period?",
+        "patterns": ["How long is the free education commitment period?" , "Free education service commitment time" , "What is the commitment time for free education service?" , "How much is the free education service commitment?"],
+        "response": ["The duration of free education service commitment depends on the type of quota accepted in the national exam."]
+    },
+    {"tag": "For which group of accepted students, the amount of commitment is calculated as one time of the study period?",
+        "patterns": ["For which group of accepted students, the amount of commitment is calculated as one time of the study period?" , "For which group, the obligation is calculated equal to the study period?"],
+        "response": ["For those admitted to the free quota, Region 1, Shahid, the family of the martyrs, martyrs, the literacy movement, Jihad, veterans, freedmen, those admitted to courses (non-consecutive bachelor's degree, non-consecutive master's degree, specialized doctorate), admissions before the Cultural Revolution, non-Iranian students admitted from through the national entrance exam (entries before 2007), winners of international Olympiads, winners of the Khorezmi Festival, brilliant talents who use free education without participating in the national exam, and Iranian students studying abroad, who go to domestic institutions on a daily basis transferred and have benefited from free education is equal to the duration of education."]
+    },
+    {"tag": "For which group of admitted students, the amount of commitment is calculated as double the duration of education?",
+        "patterns": ["For which group of admitted students, the amount of commitment is calculated as double the duration of education?" , "Commitment is calculated as double the study period for which group?"],
+        "response": ["For those admitted in 1362 and later, the quotas of regions 2, 3, 4, 5, nomads and disadvantaged regions are twice the duration of education."]
+    },
+    {"tag": "For which group of admitted students, the amount of commitment is calculated as three times the study period?",
+        "patterns": ["For which group of admitted students, the amount of commitment is calculated as three times the study period?" , "The commitment is calculated as three times the study period for which group?"],
+        "response": ["For those admitted to the quota of governorships, it is three times the duration of education."]
+    },
+    {"tag": "In which case, the quota graduates of regions 2, 3, 4, and 5 and tribes and governorates can benefit from the privilege of region 1?",
+        "patterns": ["In which case, the quota graduates of regions 2, 3, 4, and 5 and tribes and governorates can benefit from the privilege of region 1?" , "How can the graduates of regions 2, 3, 4, and 5 and tribes and governorates benefit from the privilege of region 1?" , "How can the graduates of regions 2, 3, 4, and 5 and tribes and governorates benefit from the points of region 1?"],
+        "response": ["If, after inquiry from the country's education assessment organization, or according to the confidential report card included in the applicant's file, he/she has the free selection quota of the same field and place of study."]
+    },
+    {"tag": "Can withdrawn and expelled students who are eligible to receive an interdisciplinary associate certificate benefit from this privilege if they meet the requirements of Region 1?",
+        "patterns": ["Can withdrawn and expelled students who are eligible to receive an interdisciplinary associate certificate benefit from this privilege if they meet the requirements of Region 1?" , "Can withdrawn and expelled students eligible to receive an associate certificate if they meet the requirements of Region 1 benefit from this privilege?"],
+        "response": ["yes"]
+    },
+    {"tag": "What semesters are not included in the obligation to serve free education?",
+        "patterns": ["What semesters are not included in the obligation to serve free education?" , "Which semesters are not included in the obligation to serve free education?" , "What are the semesters that are not included in the obligation to serve free education?"],
+        "response": ["Semesters of leave not included in years, academic suspensions and breaks, summer semesters, and each semester for which full-time students have paid tuition fees (such as party semesters and extension of years with the permission of the commission to review special cases) are subject to service obligations. It doesn't work."]
+    },
+    {"tag": "How is the commitment period of introduction courses to the professor calculated?",
+        "patterns": ["How is the commitment period of introduction courses to the professor calculated?" , "How is the commitment time of introduction courses to the professor calculated?" , "How to calculate the commitment time of introduction courses to the professor"],
+        "response": ["The duration of the introduction courses to the professor is calculated according to the selected unit (on a unit basis)."]
+    },
+    {"tag": "Are the removed semesters for emergency, medical, etc. calculated during the commitment period of free education service?",
+        "patterns": ["Are the removed semesters for emergency, medical, etc. calculated during the commitment period of free education service?" , "Are the removed semesters counted in the commitment period of free education service?" , "Are the removed semesters calculated as an emergency during the commitment period of the free education service?" , "Are the removed semesters medically calculated during the commitment period of free education service?"],
+        "response": ["If the above semesters are considered as academic years, it will be calculated as a full semester during the commitment period of free education."]
+    },
+    {"tag": "How is the obligation to serve the thesis unit in the master's degree calculated?",
+        "patterns": ["How is the obligation to serve the thesis unit in the master's degree calculated?" , "Obligation to serve the thesis unit in the master's degree" , "Obligation to serve the thesis in the master's degree"],
+        "response": ["The semesters in which only the course units of the thesis have been taken are considered part of the service obligation only once."]
+    },
+    {"tag": "How is the obligation to serve the dissertation unit in the specialized doctorate level calculated?",
+        "patterns": ["How is the obligation to serve the dissertation unit in the specialized doctorate level calculated?" , "Obligation to serve the dissertation unit in the specialized doctorate level" , "Obligation to serve the thesis in the specialized doctoral level"],
+        "response": ["The obligation to serve in the doctoral degree for the semesters in which the thesis units are obtained is calculated according to the number of thesis units, at least 3 semesters and at most 4 semesters."]
+    },
+    {"tag": "Are the semesters in which doctoral students are busy preparing the thesis (proposal) and the comprehensive exam calculated in the repayment amount of the free education service obligation?",
+        "patterns": ["Are the semesters in which doctoral students are busy preparing the thesis (proposal) and the comprehensive exam calculated in the repayment amount of the free education service obligation?" , "Are the semesters in which doctoral students are busy preparing proposals and comprehensive exams counted in the repayment amount of the free education service obligation?"],
+        "response": ["no"]
+    },
+    {"tag": "Are semesters and units of prerequisite courses counted as part of the free education service obligation?",
+        "patterns": ["Are semesters and units of prerequisite courses counted as part of the free education service obligation?" , "Are semesters and prerequisite courses counted as part of the obligation to provide free education?" , "Are semesters and prerequisite courses considered part of the free education service commitment?"],
+        "response": ["no"]
+    },
+    {"tag": "Canceling the obligation of free education includes who?",
+        "patterns": ["Canceling the obligation of free education includes who?" , "Who is included in canceling the commitment of free education?" , "Who does the cancellation of the obligation of free education include?"],
+        "response": ["People who have studied in public universities on a daily basis should serve the country for the years of their education. Without fulfilling this obligation or canceling it, it is not possible to receive transcripts and original documents."]
+    },
+    {"tag": "How to cancel the obligation of free education (students of the daily course)?",
+        "patterns": ["How to cancel the obligation of free education (students of the daily course)?" , "How to cancel the obligation of free education for graduates of the daily course?" , "How to cancel the obligation of free education for daily graduates?"],
+        "response": ["By registering in the Sajjad system of the Student Affairs Organization, at the address (https://portal.saorg.ir) and uploading the relevant documents."]
+    },
+    {"tag": "Are the graduates and those accepted at night, Payam Noor, non-profit and virtual also obliged to cancel the obligation of education service?",
+        "patterns": ["Are the graduates and those accepted at night, Payam Noor, non-profit and virtual also obliged to cancel the obligation of education service?" , "Are evening, Payam Noor, non-profit and virtual graduates also obliged to cancel the obligation of education?" , "Are night graduates also obliged to cancel the obligation of education service?" , "Are the graduates of Payam Noor also obliged to cancel the commitment of education service?" , "Are non-profit graduates obliged to cancel the education service obligation?" , "Are evening and virtual graduates also obliged to cancel the obligation of education service?"],
+        "response": ["no These people have no obligation to serve the government."]
+    },
+    {"tag": "What group of graduates are exempt from the obligation to serve free education?",
+        "patterns": ["What group of graduates are exempt from the obligation to serve free education?" , "Which graduates are exempt from the obligation to serve free education?"],
+        "response": ["Graduates of Islamic Azad University, all tuition-paying students, including night, Payam Noor, non-profit, virtual, self-governing campuses, do not have a service obligation."]
+    },
+    {"tag": "The equivalent amount is distributed for which group of students and for how long?",
+        "patterns": ["The equivalent amount is distributed for which group of students and for how long?" , "For which group of students and until when will the amount equivalent to the commitment be distributed?" , "The amount equivalent to the commitment will be paid in installments for which group of students and for how long"],
+        "response": ["1- Graduates under the support of tribal support institutions: Committee for Relief, Welfare and... 2- Graduates who are responsible for expenses should not be responsible for themselves. 3- Graduates who themselves or their first degree dependents are suffering from certain diseases. 4- The families of martyrs (children and spouses), veterans (veterans, children, and spouses), combatants (combatants, children, and spouses) and freedmen (freedmen, children, and spouses). 5- Indigent graduates as determined by the General Department of Internal Affairs The amount of the fee for this group of graduates will be distributed for one year after checking and meeting the requirements. Note: He submits a request for installments and related documents to the General Directorate of Student Affairs in the country, after checking and verifying the conditions and legal rights of the Ministry, the situation is announced to the office, and the office is obliged to issue the official payment document from the debtor with two employees. Offers. The definitive official of the government should obtain and keep the official document in his archive and send a copy of it to the General Directorate of Internal Students for action."]
+    },
+    {"tag": "What is the way to cancel the commitment by paying the fee?",
+        "patterns": ["What is the way to cancel the commitment by paying the fee?" , "How to cancel the commitment by paying the fee?" , "How to cancel the commitment with a fee?"],
+        "response": ["Graduates can pay all or part (proportionately to the remaining obligations from doing the work) of the free education service obligations according to the tariffs announced by the relevant ministry to the account of the Student Affairs Organization."]
+    },
+    {"tag": "what factors influence the cost of graduates to cancel their commitment with the documents ?( to pay the amount and provide the certificate of doing the work )",
+        "patterns": ["what factors influence the cost of graduates to cancel their commitment with the documents ?( to pay the amount and provide the certificate of doing the work )" , "Factors influencing the cost of graduates to cancel the commitment along with the documents of doing the work"],
+        "response": ["1- The year of the beginning and end of the academic degree 2- The amount of work experience 3- Educational level 4- Study group (medicine, engineering, humanities, agriculture, art, etc.) 5- Region quota (Zone 3, 2, 1, Azad)"]
+    },
+    {"tag": "How is the cost of canceling the free education obligation calculated?",
+        "patterns": ["How is the cost of canceling the free education obligation calculated?" , "How to calculate the cost of canceling the free education commitment" , "How to calculate the cost of canceling the obligation of free education"],
+        "response": ["The fee for canceling the obligation of free education service is done according to the tariff announced by the Student Affairs Organization. (Click here to know the amounts) Note: The cost of free education is calculated based on the year of starting education, level of study, study group (basic sciences, engineering, agriculture, arts...), the quota of the accepted region (region 1, 2, 3, and free). Note: The cost of free education until the end of 2008 is calculated based on the student's entry year along with the items mentioned above, and the entry from 2010 onwards is calculated in a staggered manner along with the items mentioned above. Note: If a student chooses more than the minimum allowed or less than the minimum allowed one academic semester in each semester, he must pay the cost of one academic semester."]
+    },
+    {"tag": "How can we get certified social security insurance work records (12-digit barcode) from the social security website?",
+        "patterns": ["How can we get certified social security insurance work records (12-digit barcode) from the social security website?" , "How to get verified work records of social security insurance (12-digit barcode) from the social security website"],
+        "response": ["1- Login to the social security website and view the insurance records (from the header of the insured - history services - all records) 2- Declaration of consent regarding sending records to the personal fund and activating the method of notifying the records to the institutions in the form of all records (from the header of the insured - records services - notifying the records to the institutions) 3- Issuing an inquiry license (from the My Social Security header - My personal fund - list of records announced to institutions - click on the operation icon at the end of the list of records - choose to issue an inquiry license (for one month) - final approval) 4- Sending the 12-digit barcode of the inquiry to the insured's mobile number"]
+    },
+    {"tag": "Is the period of military service counted as part of the effective function to cancel the obligation?",
+        "patterns": ["Is the period of military service counted as part of the effective function to cancel the obligation?" , "Is the military period counted as part of the effective function to cancel the obligation?" , "Is the military period counted as part of the work to cancel the obligation?"],
+        "response": ["Performing public duty service after the date of graduation is considered as one of the effective services in fulfilling the student's service obligation, and the date of issue and end of service is the basis of calculation."]
+    },
+    {"tag": "In what way is the certificate of completion of work while studying at a higher level accepted for lower levels?",
+        "patterns": ["In what way is the certificate of completion of work while studying at a higher level accepted for lower levels?" , "The conditions for accepting the certificate of doing work while studying at a higher level for lower levels?"],
+        "response": ["If the applicant is not studying in the daily course"]
+    },
+    {"tag": "Was the simultaneous work experience accepted at the same place for a service commitment?",
+        "patterns": ["Was the simultaneous work experience accepted at the same place for a service commitment?" , "Has the work experience in several places been accepted for service commitment?" , "Is work experience in several places accepted for service commitment?"],
+        "response": ["No at any time only one valid employment document is approved."]
+    },
+    {"tag": "Were the certificates of the work provided to fulfill the service commitment at one point?",
+        "patterns": ["Were the certificates of the work provided to fulfill the service commitment at one point?" , "Are the certificates of work done to fulfill the obligation of service at one stage acceptable for other stages?" , "Have the work certificates for the commitment of service at one stage been acceptable for other stages?"],
+        "response": ["no"]
+    },
+    {"tag": "When is the time to provide a certificate for each point?",
+        "patterns": ["When is the time to provide a certificate for each point?" , "The time to submit the work completion certificate for each section"],
+        "response": ["After your leisure date of education at that time"]
+    },
+    {"tag": "Can the graduate pay the lower level commitment and provide the certificate of doing their job for higher levels?",
+        "patterns": ["Can the graduate pay the lower level commitment and provide the certificate of doing their job for higher levels?" , "Can the student pay the commitment amount of the lower levels and provide a certificate of completion of her work for the higher level?" , ""],
+        "response": ["yes"]
+    },
+    {"tag": "What activities have not included insurance records and are acceptable as a trustee to fulfill the obligation?",
+        "patterns": ["What activities have not included insurance records and are acceptable as a trustee to fulfill the obligation?" , "Activities that do not include providing insurance records and are acceptable as valid work to fulfill the obligation?"],
+        "response": ["1- A valid acquisition license, from the date of issue, on the condition of renewal or having a tax file as a certificate of doing work over the years. 2- The duration of work of graduates as CEO in private companies, on the condition of proof of activity by presenting a certificate from the company in question and a picture of the advertisement, including the establishment and changes of the company in the official newspaper, and providing a certificate of tax payment during the period of activity. 3- Artistic and press activities of graduates by presenting a certificate of employment in this profession from the relevant institutions 4- Valid teaching certificate from universities, higher education institutions (governmental and non-governmental) for 10 hours per week and other educational institutions, if approved by the relevant institution, for 16 hours per week as full-time work. 5- Submitting a certificate regarding an acceptable activity in fields other than the above from the student's side, upon inquiry by the university and the approval of the student affairs organization. Note: All the mentioned cases are conditional on the student being present in Iran."]
+    },
+    {"tag": "Is it possible to act as a valid task to cancel the obligation if an insurance experience without an insurance history?",
+        "patterns": ["Is it possible to act as a valid task to cancel the obligation if an insurance experience without an insurance history?" , "Did he act to cancel the commitment in case of activity without record as valid work?"],
+        "response": ["Yes. It is the specific activities that are answered in the next question."]
+    },
+    {"tag": "Is the experience of working on a daily basis for the cancellation of a free training commitment?",
+        "patterns": ["Is the experience of working on a daily basis for the cancellation of a free training commitment?" , "Is working with studying at the same time during the day course considered to cancel the obligation of free education?"],
+        "response": ["no. Note: If you work in the night, tuition fees and Azad University, work has been accepted at the same time."]
+    },
+    {"tag": "What is the way to release an academic degree by presenting a valid work certificate?",
+        "patterns": ["What is the way to release an academic degree by presenting a valid work certificate?" , "How can the release of the academic degree be done by presenting a valid work certificate?" , "Release of educational qualification through the presentation of a valid work certificate" , "How to release a degree by presenting a valid work certificate"],
+        "response": ["1- Presenting the recruitment decisions of governmental and non-governmental public institutions 2- Confirmed work records of social security insurance (by providing a 12-digit barcode) for private institutions Note: Work experience must be after graduation. In fact, the insurance that was rejected during studies is not approved by the university and the Ministry of Science."]
+    },
+    {"tag": "What kind of employment is considered valid for fulfilling the obligation of free education service?",
+        "patterns": ["What kind of employment is considered valid for fulfilling the obligation of free education service?" , "What are the valid tasks to fulfill the obligation of free education service?" , "What works are valid for free education service commitment" , "Works that serve the commitment of free education"],
+        "response": ["A) Employment where the employee is covered by insurance and the insurance records are the criteria for calculating the fulfillment of the obligation. b) Government and non-governmental institutions' job selection orders are considered as acceptable documents to fulfill the obligation of providing free education."]
+    },
+    {"tag": "In what way is it possible to cancel the obligation of free education for those committed to serving education?",
+        "patterns": ["In what way is it possible to cancel the obligation of free education for those committed to serving education?" , "The conditions for canceling the obligation of free education for those committed to serving education" , "What are the conditions for canceling the obligation of free education for those committed to serving education?" , "What are the conditions for canceling the obligation of free education for those committed to serving education?"],
+        "response": ["After the announcement of completion of the service obligation by the relevant ministry/organization along with form 502 of education or the declaration of lack of need by that ministry"]
+    },
+    {"tag": "Can graduates who studied in two fields at the same time use the certificate of lack of employment to cancel the obligation of free education service?",
+        "patterns": ["Can graduates who studied in two fields at the same time use the certificate of lack of employment to cancel the obligation of free education service?" , "Can graduates who have studied in two fields at the same time use the certificate of non-employment to cancel the obligation of free education service?"],
+        "response": ["Graduates who have studied in two fields at the same time can use the certificate of non-employment for each of the two fields to settle the service obligation. It is possible to register the mentioned people for employment if they are educated in two fields."]
+    },
+    {"tag": "When will students who have a higher education level in the daily withdrawal period register for employment for the previous level (graduate)?",
+        "patterns": ["When will students who have a higher education level in the daily withdrawal period register for employment for the previous level (graduate)?" , "Please tell me the registration time of students who have a higher education level during the daily withdrawal period and are dismissed for the previous level (graduate) in job search." , "The time of registration in job search for students who have a higher education level during the daily withdrawal period, are dismissed for the previous level (graduate)"],
+        "response": ["If the applicant withdraws from the higher level of the expelled student's daily course, the one-year period for applying for the previous level will be counted as incomplete from the date of dismissal or withdrawal from the higher level."]
+    },
+    {"tag": "When can the graduates benefiting from study opportunities during their studies register in employment agencies?",
+        "patterns": ["When can the graduates benefiting from study opportunities during their studies register in employment agencies?" , "When can graduates who benefit from study opportunities during their studies register in employment agencies?" , "When can graduates benefit from study opportunities during their studies to register in employment institutions?"],
+        "response": ["These people must first determine and settle the commitment status of the relevant study opportunity."]
+    },
+    {"tag": "If you have an insurance history, can you apply for the release of the certificate through a letter of non-employment?",
+        "patterns": ["If you have an insurance history, can you apply for the release of the certificate through a letter of non-employment?" , "If we have a history of insurance, can we apply for the release of the certificate through a letter of non-employment?"],
+        "response": ["No - even if you have been denied a day of insurance history, you cannot use the non-employment letter method to cancel your free training obligation or release your documents."]
+    },
+    {"tag": "Can full-time master's students apply to release their bachelor's degree through the method of obtaining a letter of non-employment?",
+        "patterns": ["Can full-time master's students apply to release their bachelor's degree through the method of obtaining a letter of non-employment?" , "Can daily graduate students apply to release their bachelor's degree by getting a letter of non-employment at the same time as they study?"],
+        "response": ["No - It is not possible to release the previous degree during study by obtaining a non -employment letter and you must do so after the completion of the course."]
+    },
+    {"tag": "Can the students who are studying in all the courses of the higher levels of the day course present a certificate of non-employment during their studies to cancel the obligation of the free education service of the previous level?",
+        "patterns": ["Can the students who are studying in all the courses of the higher levels of the day course present a certificate of non-employment during their studies to cancel the obligation of the free education service of the previous level?" , "Can the students who are studying in all the courses of the higher levels provide a certificate of non-employment during their studies to cancel the commitment of the free education service of the previous level?"],
+        "response": ["no"]
+    },
+    {"tag": "How can scholarship graduates or those committed to institutions use the certificate of lack of employment?",
+        "patterns": ["How can scholarship graduates or those committed to institutions use the certificate of lack of employment?" , "How can scholarship graduates use the certificate of lack of employment?" , "How can the graduates committed to the devices use the certificate of lack of employment?"],
+        "response": ["After announcing the lack of need, the relevant department can settle the service obligation through lack of employment."]
+    },
+    {"tag": "If a student studies in a different field at a higher level, how is the use of lack of employment?",
+        "patterns": ["If a student studies in a different field at a higher level, how is the use of lack of employment?" , "If the student studies in another field at a higher level, what is the use of not finding a job?"],
+        "response": ["In order to use this opportunity at any stage, a certificate of lack of employment related to the same field is required."]
+    },
+    {"tag": "How can you use job placement search if you graduate at a higher level?",
+        "patterns": ["How can you use job placement search if you graduate at a higher level?" , "If we graduate in higher grades, how can we use job search?"],
+        "response": ["Registration in employment institutions is done daily from the last stage of graduation, and this letter also cancels the previous stages."]
+    },
+    {"tag": "How is the cancellation of the commitment through the employment letter calculated for those who are subject to the conscription system?",
+        "patterns": ["How is the cancellation of the commitment through the employment letter calculated for those who are subject to the conscription system?" , "How is it calculated for those who are under the conscription system, canceling the commitment using the employment letter?"],
+        "response": ["After the date of issuance of the end of service card or permanent exemption card. If the date of the end of service card and the card issuance date are different, whichever is later will be the calculation criterion."]
+    },
+    {"tag": "What documents are required to register in employment agencies?",
+        "patterns": ["What documents are required to register in employment agencies?" , "Documents required for registration in employment agencies"],
+        "response": ["1- Temporary graduation certificate with photo from the university of study 2- Copy of birth certificate and national card 3- Copy of the end of service card or permanent exemption for men"]
+    },
+    {"tag": "Is the letter of non-employment issued at the same time as the student's application in the employment offices?",
+        "patterns": ["Is the letter of non-employment issued at the same time as the student's application in the employment offices?" , "Is the letter of non-employment issued at the same time as the student's application in the relevant offices?"],
+        "response": ["no. The passing of one year from the date of graduation and presence in the country during this period is mandatory for all graduates who have not been able to lack of employment from the general labor and social affairs departments of the provincial centers. In addition, one year from the date of issuance of the end of service card or permanent exemption is also necessary for male graduates. Note: If the student has already received the end of service card or permanent exemption card, one year from the date of graduation is mandatory. Note: One year is acceptable for students who graduated from the last stage of Daily course"]
+    },
+    {"tag": "What should be the time to go to the employment offices?",
+        "patterns": ["What should be the time to go to the employment offices?" , "Necessary tips when visiting employment offices" , "Points to pay attention to when visiting employment offices" , "Important points when visiting employment offices"],
+        "response": ["Registration in job search is done in the presence of the student or his lawyer and holding a temporary certificate of completion of studies with a photographer. The date of registration for employment should not be before the issuance of a temporary degree. Not engaging in simultaneous studies in the daily course of higher education Absence of a history of inquiry for employment in the educational file Male graduates by presenting a termination of service card or a permanent exemption card"]
+    },
+    {"tag": "Should the time limit of 6 months after graduation be observed in order to refer to employment offices?",
+        "patterns": ["Should the time limit of 6 months after graduation be observed in order to refer to employment offices?" , "Should the time of 6 months after graduation be observed to refer to employment offices?" , "Do you have to wait 6 months after graduation to go to employment offices?"],
+        "response": ["No - The Court of Administrative Justice on December 16, 2018, through a circular, officially invalidated the (6-month deadline law). According to this circular, students are able to register at employment agencies at any time after completing their studies."]
+    },
+    {"tag": "What are the conditions for canceling the obligation through retirement?",
+        "patterns": ["What are the conditions for canceling the obligation through retirement?" , "Conditions for canceling the obligation with the retirement order"],
+        "response": ["Canceling the service commitment of retired graduates by submitting a retirement order (with confirmation of the retirement status by the competent legal authorities) is unimpeded, provided that they are present in the country."]
+    },
+    {"tag": "Is it possible to send an academic confirmation for undergraduate students who are accepted again in the same degree and medical degree?",
+        "patterns": ["Is it possible to send an academic confirmation for undergraduate students who are accepted again in the same degree and medical degree?" , "Is it possible to send an academic confirmation for undergraduate students who are accepted again in the same medical degree?"],
+        "response": ["Sending the academic confirmation for this group of graduates is confidential and the commitment period of the free education service is unhindered. In case of requesting transcripts and sending them to the new university in order to equalize and match the unit, the commitment of free education service should be canceled."]
+    },
+    {"tag": "What are the conditions for canceling the obligation through disability?",
+        "patterns": ["What are the conditions for canceling the obligation through disability?" , "Conditions for canceling the disability obligation"],
+        "response": ["Graduates, withdrawing and expelled students who intend to release their degrees in this way, must submit a certificate of disability and inability to work from the Medical Council of Universities of Medical Sciences in the province where they study, clearly stating (the named person is unable to do work.) Prepare and submit to the university."]
+    },
+    {"tag": "How long are the years of friendship and how should you act?",
+        "patterns": ["How long are the years of friendship and how should you act?" , "How long is the duration of friendship and how can it be done?" , "What is the duration of the years of friendship and how can it be done?" , "What is the time of the Arafaqi years and how is it?"],
+        "response": ["Friendship years are for two half-years, and it is necessary for the student to receive a letter of friendship years three months before the end of the initial exemption while applying to the commission for special cases for the approval of the commission, by referring to the university education and receiving a letter of request for friendship years and by referring to the police offices +10 years to receive friendship."]
+    },
+    {"tag": "Can the educational exemption of the previous level (student or student) that has not yet expired be used for the next levels?",
+        "patterns": ["Can the educational exemption of the previous level (student or student) that has not yet expired be used for the next levels?" , "Can the academic exemption of the previous level that has not yet expired be used for the next levels?" , "Is it possible to use the educational exemption of the previous level for the following levels?" , "Is it possible to use the educational exemption from the previous level (student or student) for the following levels?"],
+        "response": ["The academic exemption for each level is only valid until the date of graduation and cannot be used for subsequent levels, even if the exemption ends."]
+    },
+    {"tag": "Is the student's academic exemption valid in case of disconnection from the university (dismissal, withdrawal or failure to return)?",
+        "patterns": ["Is the student's academic exemption valid in case of disconnection from the university (dismissal, withdrawal or failure to return)?" , "Is the student's academic exemption valid in case of disconnection from the university?"],
+        "response": ["Disconnecting the student in any way will invalidate her exemption and her academic exemption will be valid only until the end of the last semester in which the student has chosen a unit."]
+    },
+    {"tag": "What are the procedures for obtaining an educational exemption?",
+        "patterns": ["What are the procedures for obtaining an educational exemption?" , "Guide to receiving educational exemption" , "Steps to get educational exemption"],
+        "response": ["Go to the university where you are admitted and get an exemption application form and go to +10 police offices located in the province or city to get an exemption"]
+    },
+    {"tag": "What is the maximum period of issuing permission to leave the country for each level of education?",
+        "patterns": ["What is the maximum period of issuing permission to leave the country for each level of education?" , "How long does it take to issue a permission to leave the country at each level of education?" , "How long does it take to issue a permit to leave the country at each level of education?"],
+        "response": ["What is the maximum period of issuing permission to leave the country for each level of education? Pilgrimage and sightseeing trips for all academic levels are a maximum of one month. But regarding the academic trip, with the agreement of the relevant university, it is a maximum of one month for the bachelor's degree, a maximum of 6 months for the master's degree, and a maximum of one year for the doctoral degree. Note: A scientific trip means presenting an article for 30 days and participating in a conference for a maximum of 45 days."]
+    },
+    {"tag": "If you have a study leave, will you be allowed to leave the country?",
+        "patterns": ["If you have a study leave, will you be allowed to leave the country?" , "If we have a study leave, permission to leave the country will be issued"],
+        "response": ["If the university agrees to the student's study leave request based on the educational regulations, it is unimpeded to introduce her to public duty."]
+    },
+    {"tag": "What are the procedures for obtaining permission to leave the country?",
+        "patterns": ["What are the procedures for obtaining permission to leave the country?" , "Procedures for obtaining permission to leave the country" , "What are the steps to get permission to leave the country?"],
+        "response": ["1- Internet application using the Services.epolic.ir or Evazifeg.epolice.ir system and registering information in the system 2- Submitting the registration printout to the university for approval by the relevant university 3- Opening an account in Qavamin Bank branches and depositing the amount of 30,000,000 Rials for a pilgrimage and 150,000,000 Rials for a tourist trip as collateral. 4- Confirmation by public duty after 24 hours"]
+    },
+    {"tag": "When is the date of sending the letter to the conscription system and announcing the withdrawal from education (cancellation of academic exemption) of the eligible students?",
+        "patterns": ["When is the date of sending the letter to the conscription system and announcing the withdrawal from education (cancellation of academic exemption) of the eligible students?" , "When is the date of sending the letter to the conscription system and announcing the graduation of the students?" , "When is the date of sending the letter to the conscription system for eligible students?" , "When is the date of sending the letter to the conscription system for graduate students?"],
+        "response": ["There are three induction dates for undergraduate students: 30th of February for first semester graduates. July 31 for second semester graduates and September 31 for summer semester graduates. In the case of master's and doctorate graduates, the date of graduation is calculated as the date of the defense of the thesis."]
+    },
+    {"tag": "How long can a student get a permit to leave the country and is it possible to get a permit to leave the country after graduation?",
+        "patterns": ["How long can a student get a permit to leave the country and is it possible to get a permit to leave the country after graduation?" , "How long can a student get permission to leave the country?" , "Is it possible to get permission to leave the country after graduation?" , "Can a student get permission to leave the country after graduation?"],
+        "response": ["Undergraduate students can apply for a permit to leave the country until the end of the academic year, provided that the date of return to the country is before the end of the semester, and master's and doctoral students can apply for a permit to leave the country before the date of the thesis defense. Perform the general duty of the province or city of residence."]
+    },
+    {"tag": "What are the examples and issues of issuing permission to leave the country? And how many times can you get permission to leave the country?",
+        "patterns": ["What are the examples and issues of issuing permission to leave the country? And how many times can you get permission to leave the country?" , "What are the examples and issues of issuing permission to leave the country?" , "How many times can you get permission to leave the country?" , "What are the examples of issuing permission to leave the country? And how many times can you get an exit permit?"],
+        "response": ["Examples and subjects of leaving the country are in the form of (scientific, recreational and pilgrimage) trips. There is no limit to the number of times you leave the country."]
+    },
+    {"tag": "Is studying at the same time as public service allowed?",
+        "patterns": ["Is studying at the same time as public service allowed?" , "Is studying and military service allowed at the same time?" , "Is education and military service allowed at the same time?"],
+        "response": ["No, in any of the general duty regulations, no permission has been issued to continue studying at the same time as serving the mandatory period."]
+    },
+    {"tag": "How long is the academic exemption period?",
+        "patterns": ["How long is the academic exemption period?" , "What is the duration of using the educational exemption?" , "The duration of using the academic exemption"],
+        "response": ["Degree level - allowed period | Associate - 2.5 years | Bachelor - 5 years | Discontinuous bachelor and master - 3 years | PhD - 6 years"]
+    },
+    {"tag": "Is it possible to study in two fields or two universities at the same time?",
+        "patterns": ["Is it possible to study in two fields or two universities at the same time?" , "Is it possible to study in two fields at the same time?" , "Is it possible to study in two universities at the same time?"],
+        "response": ["No, studying at the same time in two fields or two universities is against the regulations and will cause the cancellation of the academic exemption. Double major students who are introduced through brilliant talent and students who use seminary exemption are excluded from this rule."]
+    },
+    {"tag": "What is the deadline after completing the studies in each of the study levels?",
+        "patterns": ["What is the deadline after completing the studies in each of the study levels?" , "What is the time after the end of education at each level?"],
+        "response": ["Conscripts who graduate while enjoying an educational exemption must notify the public service organization of their eligibility status in the form of continuing their studies or obtaining a ready-to-serve booklet within a period of one year.Conscripts who graduate while enjoying an educational exemption must notify the public service organization of their eligibility status in the form of continuing their studies or obtaining a ready-to-serve booklet within a period of one year."]
+    },
+    {"tag": "How can the soldiers who are sent to serve and continue their education?",
+        "patterns": ["How can the soldiers who are sent to serve and continue their education?" , "How can serving soldiers continue their education?" , "How can active duty soldiers continue their education?" , "How can soldiers who are being deployed continue their education?"],
+        "response": ["The discharge of soldiers to study is allowed according to the following regulations: a) have been admitted to the bachelor's degree and above. b) He has been sent to serve without being absent. c) He is not in a state of desertion. t) Do not have an open case in the judicial authority due to service."]
+    },
+    {"tag": "What is the process of discharging soldiers?",
+        "patterns": ["What is the process of discharging soldiers?" , "Discharge process of soldiers" , "Procedures for the discharge of soldiers"],
+        "response": ["The soldier goes to the university where he is accepted and takes the exemption application form and submits it to the +10 police office to get the discharge letter and refer to the service unit regarding the settlement and finally introduce the service discharge letter and return to the +10 police office to obtain the educational exemption and Submit it to the university of admission."]
+    },
+    {"tag": "How should I proceed to obtain sponsorship exemption, special and Olympic cases?",
+        "patterns": ["How should I proceed to obtain sponsorship exemption, special and Olympic cases?" , "What should be done to get a sponsorship exemption?" , "What should be done to get exemption for special cases?" , "How should I proceed to get an Olympic exemption?"],
+        "response": ["Students who are subject to sponsorship exemptions, special cases and Olympiads can apply by obtaining a certificate of employment by mentioning the class number of the exemption along with other necessary documents and handing it over to the public service organization."]
+    },
+    {"tag": "Can withdrawn and expelled students use the academic exemption again?",
+        "patterns": ["Can withdrawn and expelled students use the academic exemption again?" , "Can withdrawn students use the study exemption again?" , "Can withdrawn students use the academic exemption again?" , "Can expelled students use the study exemption again?" , "Can expelled students use the academic exemption again?"],
+        "response": ["Students who withdraw up to two months and expelled students have the opportunity to return to their studies under the condition of the approval of the special cases commission, or in case of re-admission within one year from the date of withdrawal, they can use the academic exemption, otherwise, students with the status of withdrawal or expulsion can One year from the date of resignation or dismissal, they have the opportunity to introduce themselves to public duty."]
+    },
+    {"tag": "What is the deadline for students to be introduced to public duty?",
+        "patterns": ["What is the deadline for students to be introduced to public duty?" , "How long does it take for students to be introduced to public duty?" , "How much time does it take for students to be introduced to the military?" , "How much time does it take for students to be introduced to public duty?"],
+        "response": ["The deadline for introducing students is a maximum of one year after the date of graduation, withdrawal, dropout, or dismissal."]
+    },
+    {"tag": "When is the registration period for guest and transfer?",
+        "patterns": ["When is the registration period for guest and transfer?" , "When is the application time for the guest and transfer?"],
+        "response": ["In May every year (from May 1st to May 31st), the Sajjad system is opened to register guest and transfer requests."]
+    },
+    {"tag": "What are the initial conditions for changing majors?",
+        "patterns": ["What are the initial conditions for changing majors?" , "Conditions for changing majors"],
+        "response": ["Response"]
+    },
+    {"tag": "If you withdraw from your studies, can you return to your studies?",
+        "patterns": ["If you withdraw from your studies, can you return to your studies?" , "If the student withdraws, she can return to study" , "If the student withdraws, he can return to study" , "A student who withdraws can return to study"],
+        "response": ["Yes, you can request to return to education up to two months after withdrawing from studies."]
+    },
+    {"tag": "What is the maximum time allowed to submit and approve the research plan?",
+        "patterns": ["What is the maximum time allowed to submit and approve the research plan?" , "What is the maximum time for submitting and approving the research plan?" , "What is the maximum time to submit a proposal?" , "What is the maximum time for submitting and approving the proposal?"],
+        "response": ["According to Article 35 of the comprehensive educational policy of Birjand University, a master's student is required to determine the subject of his thesis with the coordination of his supervisor and submit his thesis research plan to the approval of the graduate education council of the department and faculty at the latest before the start of the fourth semester of study. In this case, after the approval of the graduate education council of the university, it will be possible to present the thesis research plan and approve it in the graduate education council of the department and faculty."]
+    },
+    {"tag": "Is the teaching method possible without doing and defending the thesis in the master's course for graduation?",
+        "patterns": ["Is the teaching method possible without doing and defending the thesis in the master's course for graduation?" , "Is it possible to graduate without defending the thesis in the senior course?" , "The master's degree is done without a thesis"],
+        "response": ["According to the circular dated 06/09/1398 of the Ministry of Science, Research and Technology, the method of accepting postgraduate students is only the educational-research method; That is, the students of master's courses can become scholars after passing the educational units of the course and successfully defending the thesis."]
+    },
+    {"tag": "Is it possible to change the title of the thesis or the thesis committee (adding or removing the second supervisor or consultant professor) after the approval of the research plan?",
+        "patterns": ["Is it possible to change the title of the thesis or the thesis committee (adding or removing the second supervisor or consultant professor) after the approval of the research plan?" , "Is it possible to change the thesis title after the approval of the research plan?" , "Is it possible to change the second supervisor or consultant professor after the approval of the research plan?" , "Is it possible to change the second supervisor or consultant professor after the approval of the proposal?"],
+        "response": ["If more than six months have not passed since the approval of the research plan, it is possible only after the approval of the head of the graduate education department. Otherwise, these changes are possible after the approval of the Graduate Education Council of the University. For this purpose, the student should request (change the title of the thesis) or (change the thesis committee) in the graduate education applications section of the dynamic system."]
+    },
+    {"tag": "If the student is applying for an incentive grade for the essay after defending the thesis, should she approve the amendments and finalize the plan in research plan 3?",
+        "patterns": ["If the student is applying for an incentive grade for the essay after defending the thesis, should she approve the amendments and finalize the plan in research plan 3?" , "If the student requests more marks for the article after the thesis defense, should she approve the amendments and finalize the plan in research plan 3?" , "If the student requests more marks for the article after the thesis defense, should he approve the amendments and finalize the plan in research plan 3?"],
+        "response": ["Students who are applying for an incentive score for an essay or essays after the defense should only approve the amendments and finalize the plan in research plan 3 after six months and announcing the total incentive score."]
+    },
+    {"tag": "After defending the thesis, is it possible to submit an article to get an incentive score?",
+        "patterns": ["After defending the thesis, is it possible to submit an article to get an incentive score?" , "Is it possible to submit an essay after the defense of the thesis to increase the grade?"],
+        "response": ["According to the approval of the Graduate Education Council of the University, the student can present the accepted or published essay or essays in order to get an incentive grade no later than six months after the date of the defense. For this purpose, in addition to the article or articles before the defense, the student must submit the rest of the accepted articles in domestic or foreign prestigious journals through the (summary of research activities) request in the graduate education applications section of the dynamic system until after approval. The research officer of the campus/faculty should inform the graduate education representative of the total incentive score."]
+    },
+    {"tag": "If, after passing all the educational units (courses), the student's grade point average is less than 14, is it possible to defend the thesis?",
+        "patterns": ["If, after passing all the educational units (courses), the student's grade point average is less than 14, is it possible to defend the thesis?" , "If the student's GPA is less than 14, is it possible to defend the thesis?" , "If the student's GPA is less than 14, can she defend her thesis?" , "If the student's GPA is less than 14, can he defend his thesis?"],
+        "response": ["According to article 33 of the comprehensive educational policy of Birjand University, if the total average of the student after passing all the educational units of the course is less than 14, the student is not allowed to defend the thesis and only one semester will be given to him in compliance with the limit of the allowed academic years. By retaking a maximum of 8 units from the courses he passed with a grade of less than 14, he will bring the average of the total units passed to at least 14, in this case he will be allowed to defend his thesis."]
+    },
+    {"tag": "In case of two conditional semesters, is it possible to continue studying?",
+        "patterns": ["In case of two conditional semesters, is it possible to continue studying?" , "If we are suspended for two semesters, it is possible to continue studying"],
+        "response": ["Permission to continue studying after two conditional semesters is possible only after the approval of the University's Special Cases Commission. For this purpose, the student must apply for (return to education) through the requests of the special cases commission in the graduate education applications section of the dynamic system, so that the request will be presented and decided by the special cases commission of the university during the approval process."]
+    },
+    {"tag": "Should the thesis defense sufficiency condition for the defense permit be published in the form of the final version in paper form or electronically (online)?",
+        "patterns": ["Should the thesis defense sufficiency condition for the defense permit be published in the form of the final version in paper form or electronically (online)?"],
+        "response": ["According to the approval of the Graduate Education Council, a student can defend her thesis even with a letter of acceptance that has been approved by the editor (for domestic journals) or an email acceptance of the article (for foreign journals)."]
+    },
+    {"tag": "Is it possible to change the thesis title or the thesis committee (adding or removing the second supervisor or consultant professor) after defending the research project?",
+        "patterns": ["Is it possible to change the thesis title or the thesis committee (adding or removing the second supervisor or consultant professor) after defending the research project?" , "Is it possible to change the thesis title after defending the research plan?" , "Is it possible to change the second supervisor or advisor after defending the research project?" , "Is it possible to change the second supervisor or advisor after defending the proposal?"],
+        "response": ["If more than six months have not passed since the approval of the research plan, it is possible only after the approval of the head of the graduate education department. Otherwise, these changes are possible after the approval of the Graduate Education Council of the University. For this purpose, the student should request (change the title of the thesis) or (change the committee of the thesis) in the graduate education applications section of the dynamic system."]
+    },
+    {"tag": "When is the maximum time allowed to send internal and external study opportunities?",
+        "patterns": ["When is the maximum time allowed to send internal and external study opportunities?" , "What is the time allowed for sending study opportunities inside and outside?" , "Allowed time to send study opportunities inside and outside"],
+        "response": ["According to the regulations of the Ministry of Ataf, the maximum time allowed for sending students to internal and external study opportunities is within the permitted academic years approved by the Ministry of Ataf (four years)."]
+    },
+    {"tag": "If the student is applying to get an incentive score for the essay (essays) after the thesis defense, should she approve the amendments and finalize the plan in research plan 3?",
+        "patterns": ["If the student is applying to get an incentive score for the essay (essays) after the thesis defense, should she approve the amendments and finalize the plan in research plan 3?" , "If the student wants an extra grade for the essay after defending the thesis, she must approve the amendments and complete the plan in research plan 3." , "If the student wants an extra grade for the essay after defending the thesis, he must approve the amendments and complete the plan in research plan 3." , "If I request to increase the grade of the article after defending the thesis, I have to do 3 things to approve the amendments and complete the plan in the research plan."],
+        "response": ["Students who are applying for an incentive score for their essays after the defense must approve the amendments and finalize the project in research plan 3 only after the six-month period and the announcement of the total incentive score."]
+    },
+    {"tag": "After defending the dissertation, is it possible to submit an essay to get an incentive score?",
+        "patterns": ["After defending the dissertation, is it possible to submit an essay to get an incentive score?" , "After the defense of the dissertation, additional marks can be obtained by submitting an essay"],
+        "response": ["According to the approval of the Graduate Education Council of the University, the student can present the accepted or published essay or essays in order to get an incentive grade no later than six months after the date of the defense. For this purpose, in addition to the defense sufficiency essay, the student must submit the rest of the essays through the (summary of research activities) request in the graduate education application section of the dynamic system, so that after the approval of the head of the graduate education department, the total incentive score will be sent to the research officer. Faculty to be announced."]
+    },
+    {"tag": "Should the names of all the members of the thesis committee (the first and second supervisors, the advisors) be mentioned in the essay, or can someone else be added as an author?",
+        "patterns": ["Should the names of all the members of the thesis committee (the first and second supervisors, the advisors) be mentioned in the essay, or can someone else be added as an author?" , "Should the names of all the members of the thesis committee be mentioned in the article, or can another person be added as an author?" , "Should the names of all committee members be included in the article, or can another person be added as an author?"],
+        "response": ["According to Appendix (E) of Birjand University's educational policy, if the first supervisor agrees, in addition to the name of the student, only the names of the second supervisor and the advisors must be included in the essay on the condition of defense. Also, students who use the study opportunity can, with the consent of the main supervisor, include the name of their host professor in the course of the study opportunity among the authors of the article."]
+    },
+    {"tag": "Who is the responsible author of the essay on the condition of sufficiency of thesis defense?",
+        "patterns": ["Who is the responsible author of the essay on the condition of sufficiency of thesis defense?" , "Who is the author of the article?"],
+        "response": ["According to Appendix (C) of Birjand University's educational policy, the author responsible for the essay on the condition of sufficiency of the thesis defense should be the first supervisor. Also, with the written consent of the first supervisor, the second supervisor or the consultant can be the responsible author. In any case, it is not possible to review an article in which the student is the responsible author, as an article with the condition of defense sufficiency."]
+    },
+    {"tag": "What is the maximum number of articles to be submitted for the sufficiency condition of thesis defense for the defense license?",
+        "patterns": ["What is the maximum number of articles to be submitted for the sufficiency condition of thesis defense for the defense license?"],
+        "response": ["According to Appendix (E) of Birjand University's educational policy, a student must have at least one article in one of the scientific-research journals with the international profile of ISI, SCOPUS or ISC and approved by the educational group that is not in the list of inauthentic publications of the ministries. Offer."]
+    },
+    {"tag": "How many times is a student allowed to participate in the comprehensive exam and get a passing grade?",
+        "patterns": ["How many times is a student allowed to participate in the comprehensive exam and get a passing grade?" , "How many times is a student allowed to participate in the exam to get a passing grade?"],
+        "response": ["According to Appendix (T) of Birjand University's educational policy, if the student does not pass the comprehensive assessment, he is only allowed to participate in the comprehensive assessment one more time and pass it successfully; Otherwise, the student's file will be referred to the Special Cases Commission of the Ministry of Ataf to decide on the possibility of re-participating in the comprehensive evaluation."]
+    },
+    {"tag": "What is the maximum time allowed to obtain a license to hold a comprehensive evaluation?",
+        "patterns": ["What is the maximum time allowed to obtain a license to hold a comprehensive evaluation?" , "Allowed time to obtain permission to conduct a comprehensive assessment"],
+        "response": ["According to Appendix (T) of Birjand University's educational policy, the student must apply for the (comprehensive exam defense permit) in the dynamic system's post-graduate education application section at the latest two weeks before the date of the written exam."]
+    },
+    {"tag": "How many times a year is the comprehensive exam held in Birjand University?",
+        "patterns": ["How many times a year is the comprehensive exam held in Birjand University?" , "How many times is the comprehensive exam held in Birjand University?"],
+        "response": ["According to Appendix (T) of Birjand University's educational policy, comprehensive written evaluation is conducted in a centralized manner and annually in three times according to the following schedule: The first day of the first semester exams (for students who have taken the comprehensive assessment course in the October semester) The first day of the second semester exams (for students who have taken the comprehensive assessment course in the February semester) The first day of the October semester (for students who have taken the comprehensive assessment course in the summer semester)"]
+    },
+    {"tag": "When is the deadline for defending the research plan?",
+        "patterns": ["When is the deadline for defending the research plan?" , "The deadline for defending the research plan"],
+        "response": ["According to the decision of the Graduate Education Council of the University in February 2009, the deadline for defending the research project is until the end of the eighth semester."]
+    },
+    {"tag": "When is the deadline for submitting the English proficiency score?",
+        "patterns": ["When is the deadline for submitting the English proficiency score?" , "The deadline for submitting the English proficiency score"],
+        "response": ["According to the decision of the Graduate Education Council of the University in February 2009, the deadline for submitting the language score is until the end of the eighth semester."]
+    },
+    {"tag": "What is the formula for calculating the tuition fee for a thesis or dissertation in terms of days?",
+        "patterns": ["What is the formula for calculating the tuition fee for a thesis or dissertation in terms of days?" , "The formula for calculating the tuition fee of a thesis or dissertation in days" , "How to calculate the tuition fee of thesis or thesis in daily basis"],
+        "response": ["The number of semester days until the defense date* (number of semester days (135 days) / tuition fee)"]
+    },
+    {"tag": "For what courses should daily master's and doctorate students pay tuition?",
+        "patterns": ["For what courses should daily master's and doctorate students pay tuition?" , "Courses for which full-time graduate and doctoral students must pay tuition" , "For what courses do master's and doctorate students have to pay tuition fees?"],
+        "response": ["Compensatory courses, GPA compensation, repeated courses, alternative courses for master's students entering 94 and later and doctoral students entering 95 and later (32nd resolution of the Board of Trustees, 6/18/97)"]
+    },
+    {"tag": "If a student has a credit in her financial record at the end of her studies, what action should she take to refund the excess deposit?",
+        "patterns": ["If a student has a credit in her financial record at the end of her studies, what action should she take to refund the excess deposit?" , "If a student has a credit in her financial record at the end of her studies, what should she do to return the excess deposit?" , "If a student has a credit in his financial record at the end of his studies, what should he do to return the excess deposit?"],
+        "response": ["In the student portal, in the educational requests section, he creates a new request with the title of refund of the overpayment (for tuition) and adds items such as account number, bank name, name of the account holder and Shaba number in the request and sends the request. . The relevant expert will return the excess amount deposited to the student's account after reviewing and correcting the request in a letter to the financial affairs of the university."]
+    },
+    {"tag": "How is the tuition payment method in the dynamic system?",
+        "patterns": ["How is the tuition payment method in the dynamic system?" , "How is tuition payment done in the dynamic system" , "How to pay the tuition through the dynamic system"],
+        "response": ["Enter the student portal through the Mozilla (Firefox) browser. From the financial section, you check the amount owed in the financial report, then from the electronic payment section, select the payment item as night tuition and enter the amount owed and the last semester, and then enter You will enter the electronic payment gateway."]
+    },
+    {"tag": "From which semester do students pay daily tuition fees?",
+        "patterns": ["From which semester do students pay daily tuition fees?" , "Students pay tuition daily from the second semester"],
+        "response": ["Full-time associate, bachelor and master students from the 6th semester and undergraduate and doctoral students from the 10th semester must pay tuition."]
+    }
+]}
+
